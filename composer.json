@@ -1,0 +1,29 @@
+{
+	"name": "projectcleverweb/php-autoload",
+	"description": "",
+	"version": "0.1.0",
+	"keywords": [
+		"autoload"
+	],
+	"homepage": "https://github.com/ProjectCleverWeb/PHP-Autoload",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Nicholas Jordon",
+			"email": "projectcleverweb@gmail.com",
+			"homepage": "https://github.com/ProjectCleverWeb"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"projectcleverweb\\autoload\\": "src"
+		}
+	}
+}
